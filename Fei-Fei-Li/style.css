@@ -63,8 +63,9 @@ main {
 section {
     display: block;
     background-color: #ffffff;
-    border: 1px solid #cfd8e8;
+    border: 1px solid black;
     border-left: 8px solid #0984cb;
+    border-top: none;
     border-radius: 10px;
     padding: 25px 30px;
     margin: 0 0 35px 0;
@@ -190,26 +191,22 @@ section p {
 .lista-referencias {
     padding: 0;
     margin: 10px 0 0 0;
-    list-style: none;
 }
 
 .lista-referencias li {
-    display: block;
     margin: 8px 0;
 }
 
 .lista-referencias a {
-    color: #ffffff;
-    background-color: #465183;
+    color: #465183;
     text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 6px;
-    display: inline-block;
     font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
 }
 
-.lista-referencias a:hover {
-    background-color: #5a6bb5;
+.lista-referencias a:hover{
+    text-decoration: underline;
 }
 
 footer {
