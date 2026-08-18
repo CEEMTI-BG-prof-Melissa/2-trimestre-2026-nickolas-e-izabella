@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> Controles de formulários </title>
+    </head>
+    <body>
+        <h1> Preferências </h1>
+        <form action="index.html" method="get">
+            
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            
+            <p> Qual turno você prefere estudar? </p>
+            <input type="radio" id="manha" name="turno">
+            <label for="manha">Manhã</label><br>
+            <input type="radio" id="tarde" name="turno"> 
+            <label for="tarde">Tarde</label><br>
+            <input type="radio" id="noite" name="turno">
+            <label for="noite">Noite</label>
+            
+            <p> Quais as áreas da tecnologia você tem interesse? </p>
+            <input type="checkbox" id="programacao" name="area"> 
+            <label for="programacao">Programação</label><br>
+            <input type="checkbox" id="design" name="area">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="redes" name="area">
+            <label for="redes">Redes</label><br>
+            <input type="checkbox" id="bd" name="area">
+            <label for="bd">Banco de Dados</label><br>
+            <br>
+            
+            <label for="cor">Qual a sua cor favorita? </label>
+            <input type="color" id="cor" name="cor">
+            <br><br>
+            
+            <label for="satisfacao"> Qual o seu nível de satisfação? </label>
+            <input type="range" id="satisfacao" name="satisfação">
+            <br><br>
+            
+            <label for="horario"> Qual seu horário preferido? </label>
+            <input type="time" id="horario" name="tempo">
+            <br><br>
+            
+            <label for="arquivo"> Envie um arquivo </label>
+            <input type="file" id="arquivo" name="arquivo">
+            <br><br>
+            
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> Formulário FODA </h1>
+        
+        <form action="index.html" method="post">
+            
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name="Nome">
+            
+            <br><br>
+            <label for="comentario"> Adicione um comentário: </label>
+            <br><textarea id="comentario" name="Comentário"></textarea>
+            
+            <br><br>
+            <label for="estados"> Selecione o estado em que você recide: </label>
+            <select id="estados" name="Estados">
+                <option value="MG"> Minas Gerais </option>
+                <option value="SP"> São Paulo </option>
+                <option value="RJ"> Rio de Janeiro </option>
+                <option value="ES"> Espírito Santo </option>
+                <option value="SC"> Santa Catarina </option>
+                <option value="RS"> Rio Grande do Sul </option>
+                <option value="PR"> Paraná </option>
+            </select>
+            
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
